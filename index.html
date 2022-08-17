@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="bg-body font-roboto text-white">
+    <!-- HEADER SECTION -->
+    <header id="header" class="py-6 font-outfit text-lg">
+      <div
+        class="container mx-auto flex items-center justify-between px-8 md:px-14 lg:px-20"
+      >
+        <div class="font-outfit font-bold uppercase" id="logo">krypto</div>
+        <!-- Navbar -->
+        <nav id="nav-bar">
+          <ul class="hidden space-x-6 md:flex">
+            <li class="nav-link hover:text-slate-300"><a href="#">about</a></li>
+            <li class="nav-link hover:text-slate-300">
+              <a href="#pricing">pricing</a>
+            </li>
+            <li class="nav-link hover:text-slate-300">
+              <a href="#contact">contact</a>
+            </li>
+            <li class="nav-link hover:text-slate-300">
+              <a href="#cta">buy nfts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- HERO  SECTION -->
+    <section
+      id="about"
+      class="container mx-auto grid grid-cols-1 px-8 py-16 sm:py-36 md:px-14 lg:grid-cols-2 lg:px-20"
+    >
+      <div class="flex flex-col justify-center text-center lg:text-left">
+        <h1
+          class="mb-6 font-outfit text-6xl font-bold capitalize md:text-[81px]"
+        >
+          discover and <br />
+          collect rare nfts
+        </h1>
+        <p class="text-base">
+          The most secure marketplace for buying and selling unique crypto
+          assets.
+        </p>
+        <div
+          class="mt-6 flex flex-wrap justify-center lg:justify-start xl:flex-nowrap"
+        >
+          <button
+            class="mt-4 mr-8 rounded-full border-2 border-brand px-16 py-4 uppercase hover:bg-brand hover:text-white"
+          >
+            buy nfts
+          </button>
+          <button
+            class="mt-4 mr-8 rounded-full border-2 border-secondary px-16 py-4 uppercase hover:bg-secondary hover:text-black"
+          >
+            sell nfts
+          </button>
+        </div>
+      </div>
+      <div class="relative" id="video">
+        <img
+          class="mx-auto lg:mt-20 xl:mt-0 xl:mr-0"
+          src="./img/image1.png"
+          alt="image-1"
+        />
+        <a
+          href="https://www.youtube.com/watch?v=22O6a87-GcQ&ab_channel=TED"
+          target="_blank"
+        >
+          <span
+            class="top-50 left-50 absolute z-10 -translate-x-1/2 animate-bounce"
+          >
+            <i class="fa-solid fa-circle-play text-6xl hover:text-brand"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+    <!-- LOGO SECTION -->
+    <section
+      class="container mx-auto rounded-md px-8 py-10 md:px-14 lg:px-20"
+      id="logos"
+    >
+      <div class="flex flex-wrap">
+        <h3 class="w-full font-outfit uppercase text-white">featured on</h3>
+        <div
+          class="flex w-full flex-col flex-wrap items-center justify-evenly rounded-3xl bg-[#0A0846] py-10 px-10 md:flex-row"
+        >
+          <img
+            class="my-6 h-12"
+            src="./img/companies/company-1.png"
+            alt="company-1"
+          />
+          <img
+            class="my-6 h-12"
+            src="./img/companies/company-2.png"
+            alt="company-2"
+          />
+          <img
+            class="my-6 h-12"
+            src="./img/companies/company-3.png"
+            alt="company-3"
+          />
+          <img
+            class="my-6 h-12"
+            src="./img/companies/company-4.png"
+            alt="company-4"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- PRICING SECTION -->
+    <section
+      class="container mx-auto px-8 py-16 sm:py-36 md:px-14 lg:px-20"
+      id="pricing"
+    >
+      <!-- Pricing 1 -->
+      <div class="my-10 flex flex-col-reverse justify-between md:flex-row">
+        <div><img class="mx-auto ml-0" src="./img/image2.png" alt="" /></div>
+        <div
+          class="flex flex-col items-center space-y-10 text-center lg:items-start lg:text-left"
+        >
+          <h3 class="w-full font-outfit uppercase text-white">analytics</h3>
+          <h2 class="font-outfit text-[55px] font-bold capitalize">
+            built-in analytics to track your nfts
+          </h2>
+          <p>
+            Use our built-in analytics dashboard to pull valuable insights and
+            monitor the value of your Krypto port folio over time.
+          </p>
+          <button
+            class="rounded-full border-2 border-none bg-brand px-10 py-4 uppercase hover:bg-white hover:text-brand sm:px-16"
+          >
+            view our pricing
+          </button>
+        </div>
+      </div>
+      <!-- Pricing 2 -->
+      <div class="my-10 flex flex-col justify-between md:flex-row">
+        <div
+          class="flex flex-col items-center space-y-10 text-center lg:items-start lg:text-left"
+        >
+          <h3 class="w-full font-outfit uppercase text-white">analytics</h3>
+          <h2 class="font-outfit text-[55px] font-bold capitalize">
+            Good things just got unique
+          </h2>
+          <p>
+            We would be a perfect match! You collect me, I collect you. We’re
+            non-fungible tokens of affection.
+          </p>
+          <button
+            class="rounded-full border-2 border-none bg-brand px-10 py-4 uppercase hover:bg-white hover:text-brand sm:px-16"
+          >
+            view our pricing
+          </button>
+        </div>
+        <div><img class="mx-auto mr-0" src="./img/image2.png" alt="" /></div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS SECTION -->
+    <section
+      class="container mx-auto px-8 py-16 sm:py-36 md:px-14 lg:px-20"
+      id="testimonials"
+    >
+      <div class="flex flex-col space-y-10 text-center">
+        <h3 class="w-full font-outfit uppercase text-white">testimonials</h3>
+        <h2 class="font-outfit text-[55px] font-bold capitalize">
+          read what others have to say
+        </h2>
+        <div
+          class="grid grid-cols-1 gap-20 rounded-3xl bg-[#0A0846] py-16 px-6 lg:grid-cols-3 lg:gap-12"
+        >
+          <div class="flex flex-col items-center space-y-10">
+            <img
+              class="w-1/3 rounded-full"
+              src="./img/testimonials/joanna.jpg"
+              alt="joanna"
+            />
+            <h3 class="w-full font-outfit uppercase text-white">
+              joanna shawyer
+            </h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, reiciendis. Possimus voluptas perspiciatis nisi
+              eveniet odit doloribus, eaque cum alias nulla quasi enim excepturi
+              consectetur nobis quae quo magni. Ab.
+            </p>
+          </div>
+          <div class="flex flex-col items-center space-y-10">
+            <img
+              class="w-1/3 rounded-full"
+              src="./img/testimonials/miguel.jpg"
+              alt="miguel"
+            />
+            <h3 class="w-full font-outfit uppercase text-white">
+              miguel alonzo
+            </h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, reiciendis. Possimus voluptas perspiciatis nisi
+              eveniet odit doloribus, eaque cum alias nulla quasi enim excepturi
+              consectetur nobis quae quo magni. Ab.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center space-y-10">
+            <img
+              class="w-1/3 rounded-full"
+              src="./img/testimonials/matthew.jpg"
+              alt="matthew"
+            />
+            <h3 class="w-full font-outfit uppercase text-white">
+              matthew pinero
+            </h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, reiciendis. Possimus voluptas perspiciatis nisi
+              eveniet odit doloribus, eaque cum alias nulla quasi enim excepturi
+              consectetur nobis quae quo magni. Ab.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA SECTION -->
+    <section
+      class="container mx-auto rounded-3xl bg-gradient-to-br from-secondary to-brand px-8 py-10 md:px-14 lg:px-20"
+      id="cta"
+    >
+      <div class="flex flex-col items-center space-y-10 text-center">
+        <h3 class="font-outfit font-bold uppercase text-black">
+          are you ready?
+        </h3>
+        <h2 class="font-outfit text-[55px] font-bold capitalize">
+          be a part of the <br />
+          next big thing
+        </h2>
+        <button
+          class="rounded-full border-2 border-none bg-[#0A0846] px-10 py-4 uppercase hover:bg-[hsla(242,79%,15%,.5)] sm:px-16"
+        >
+          GET STARTED
+        </button>
+      </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer id="contact" class="container mx-auto px-8 py-10 md:px-14 lg:px-20">
+      <div
+        class="flex flex-col space-y-10 pt-8 font-roboto md:flex-row md:space-x-8"
+      >
+        <div class="text-left font-outfit font-bold uppercase md:flex-grow">
+          krypto
+        </div>
+        <div class="capitalize">
+          <h3 class="font-outfit font-bold">krypto</h3>
+          <ul>
+            <li class="hover:text-gray-300"><a href="#">Home</a></li>
+            <li class="hover:text-gray-300"><a href="#">About</a></li>
+            <li class="hover:text-gray-300"><a href="#">Buy NFTs</a></li>
+            <li class="hover:text-gray-300"><a href="#">Sell NFTs</a></li>
+          </ul>
+        </div>
+        <div class="capitalize">
+          <h3 class="font-outfit font-bold">market</h3>
+          <ul>
+            <li class="hover:text-gray-300">Browse NFTs</li>
+            <li class="hover:text-gray-300">Buy NFTs</li>
+            <li class="hover:text-gray-300">Sell NFTs</li>
+          </ul>
+        </div>
+        <div class="capitalize">
+          <h3 class="font-outfit font-bold">contact</h3>
+          <ul>
+            <li class="hover:text-gray-300">
+              <a href="mailto:marvedcodes@gmail.com">Email</a>
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="https://www.linkedin.com/in/marvedcodes" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="https://www.instagram.com/mr.vinmp" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li class="hover:text-gray-300">
+              <a href="https://www.twitter.com/marvedcodes" target="_blank"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="text-start md:flex-grow">
+          <label class="mb-6 block text-xl font-bold text-white"
+            >join our newsletter</label
+          >
+          <div class="flex justify-between bg-[#0A0846]">
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="w-1/2 rounded-l-3xl border-none bg-[#0A0846] px-4 py-4 md:w-3/4"
+            />
+            <button
+              type="button"
+              class="inline-block rounded-full bg-brand px-10 py-1 font-outfit font-semibold text-white hover:bg-white hover:text-brand"
+            >
+              submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
